@@ -14,20 +14,23 @@
         .card{
             border: 1px solid black;
             font-size: 25px;
-            padding: 8px 7px;
+            padding: 8px 15px;
             border-radius: 7px;
             background-color: white;
             box-shadow: 1px 2px 8px 2px black;
-            margin: 18px auto;
+            margin: 20px auto;
+            color: #009900;
         }
+
     </style>
 </head>
 <body>
     <h1>Student Names</h1>
-    <div id="cards"></div>
+    <div id="cards">
+    </div>
 
     <script>
-        const arr = ["Harshada","Raj","Bhavesh","Ved","Shreya","Samiksha","krish"]
+        const arr = ["Harshada","Raj","Bhavesh","Ved","Shreya","Samiksha","krish","Manasvi"]
         const student = document.getElementById("cards");
         for(let i = 0; i<arr.length; i++){
             const studentName = arr[i];
